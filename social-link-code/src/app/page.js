@@ -30,9 +30,7 @@ export default function Home() {
           <h6 className="sc_place-font">London, United Kingdom</h6>
         </div>
         <div className="sc_work">
-          <h6 className="sc_work-font">
-            "Front-end developer and avid reader."
-          </h6>
+          <h6 className="sc_work-font">Front-end developer and avid reader.</h6>
         </div>
         <div className="sc_profile-link">
           {details.map((item, index) => (
