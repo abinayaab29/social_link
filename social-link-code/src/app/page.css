@@ -1,0 +1,123 @@
+.sc_main {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+  background-color: black;
+}
+
+.sc_card {
+  background-color: hsl(0, 0%, 8%);
+  min-height: 70vh;
+  max-width: 24vw;
+  position: relative;
+  margin: 15vh 38vw 15vh 38vw;
+  border-radius: 10px;
+}
+
+.sc_profile {
+  position: absolute;
+  margin: 5vh 0vw 0vh 0vw;
+  left: 40%;
+  width: 70px;
+  height: 70px;
+  clip-path: circle();
+}
+
+.sc_name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 17vh;
+}
+
+.sc_name-font {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 2vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sc_place-font {
+  display: flex;
+  justify-content: center;
+  color: greenyellow;
+  font-size: 2vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sc_work {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.sc_work-font {
+  color: white;
+  font-weight: 100;
+  font-size: 1.8vh;
+}
+
+.sc_profile-link {
+  position: absolute;
+  justify-content: center;
+  margin-top: 30vh;
+  margin-left: 3vw;
+}
+
+.sc_profile-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 18vw;
+  height: 6vh;
+  margin-bottom: 2vh;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.sc_profile-name:focus {
+  background-color: greenyellow;
+  opacity: 0.8;
+}
+
+.sc_profile-name-font {
+  color: white;
+  font-weight: 200;
+  font-size: 1.5vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .sc_card {
+    min-height: 75vh;
+    min-width: 90vw;
+    margin: 15vh 5vw 10vh 5vw;
+  }
+
+  .sc_profile {
+    margin: 5vh 0vw 0vh 0vw;
+    left: 40%;
+    width: 90px;
+    height: 90px;
+    clip-path: circle();
+  }
+
+  .sc_profile-name {
+    width: 80vw;
+    margin-left: 2vw;
+    height: 6vh;
+    margin-bottom: 2vh;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+  }
+}
